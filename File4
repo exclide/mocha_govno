@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [[ "$HOME" != "$PWD" ]]; then
+echo "Script launched not from home dir, exiting"
+exit 1
+fi
+
+echo "$HOME"
+exit 0
