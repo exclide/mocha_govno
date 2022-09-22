@@ -1,0 +1,11 @@
+#!/bin/bash
+
+touch full.log
+chmod 777 full.log
+
+grep "^\[[0-9. ]\{10\}\] (WW)" X.log > full.log
+grep "^\[[0-9. ]\{10\}\] (II)" X.log >> full.log
+
+sed -i 's/^\(\[[0-9. ]\{10\}\]\) (II) /\1 =INFORMATION= /' full.log
+sed -i 's/^\(\[[0-9. ]\{10\}\]\) (WW) /\1 =WARNING= /' full.log
+
