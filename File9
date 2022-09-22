@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wc -l /var/log/*.log
+
+#wc -l - count lines in all files with log extension

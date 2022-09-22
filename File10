@@ -1,0 +1,9 @@
+#!/bin/bash
+
+man bash | grep -o "[a-zA-Z]\{4,\}" | sort | uniq -c | sort -nr | head -3
+
+#-o - output only matched parts
+#{4,} - at least 4 characters long
+#uniq -c - leave only unique words, add count
+#sort -nr - sort numbers in reverse
+#head -3 - leave top 3 lines

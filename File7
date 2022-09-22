@@ -1,0 +1,9 @@
+#!/bin/bash
+
+touch emails.lst
+chmod 777 email.lst
+
+grep -r '[a-z0-9\._-]*@[a-z]*\.[a-z]*' /etc/* > email.lst
+
+#* - 0 or more matches
+#grep -r - recursive read all files in given directory

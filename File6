@@ -9,3 +9,8 @@ grep "^\[[0-9. ]\{10\}\] (II)" X.log >> full.log
 sed -i 's/^\(\[[0-9. ]\{10\}\]\) (II) /\1 =INFORMATION= /' full.log
 sed -i 's/^\(\[[0-9. ]\{10\}\]\) (WW) /\1 =WARNING= /' full.log
 
+#grep > write to file
+#grep >> append to file
+#{10} - exactly 10 occurences of previously given characters
+#sed -i - inplace replace
+#sed \(   \)  - to repeat pattern with \1 \2 \3 etc, if we don't change
