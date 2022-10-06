@@ -1,0 +1,566 @@
+21:01:32,950 DEBUG kernel:e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+21:01:32,950 DEBUG kernel:e820: remove [mem 0x000a0000-0x000fffff] usable
+21:01:32,950 DEBUG kernel:MTRR default type: uncachable
+21:01:32,950 DEBUG kernel:MTRR variable ranges disabled:
+21:01:32,950 DEBUG kernel:BRK [0x72c01000, 0x72c01fff] PGTABLE
+21:01:32,950 DEBUG kernel:BRK [0x72c02000, 0x72c02fff] PGTABLE
+21:01:32,950 DEBUG kernel:BRK [0x72c03000, 0x72c03fff] PGTABLE
+21:01:32,950 DEBUG kernel:BRK [0x72c04000, 0x72c04fff] PGTABLE
+21:01:32,950 DEBUG kernel:BRK [0x72c05000, 0x72c05fff] PGTABLE
+21:01:32,950 DEBUG kernel:BRK [0x72c06000, 0x72c06fff] PGTABLE
+21:01:32,950 DEBUG kernel:ACPI: Local APIC address 0xfee00000
+21:01:32,950 DEBUG kernel:On node 0 totalpages: 524174
+21:01:32,950 DEBUG kernel:  DMA zone: 64 pages used for memmap
+21:01:32,950 DEBUG kernel:  DMA zone: 21 pages reserved
+21:01:32,950 DEBUG kernel:  DMA zone: 3998 pages, LIFO batch:0
+21:01:32,950 DEBUG kernel:  DMA32 zone: 8128 pages used for memmap
+21:01:32,950 DEBUG kernel:  DMA32 zone: 520176 pages, LIFO batch:31
+21:01:32,950 DEBUG kernel:ACPI: Local APIC address 0xfee00000
+21:01:32,950 DEBUG kernel:ACPI: IRQ0 used by override.
+21:01:32,951 DEBUG kernel:ACPI: IRQ9 used by override.
+21:01:32,951 DEBUG kernel:pcpu-alloc: s180224 r8192 d28672 u2097152 alloc=1*2097152
+21:01:32,951 DEBUG kernel:pcpu-alloc: [0] 0 
+21:01:32,972 DEBUG kernel:PCI: pci_cache_line_size set to 64 bytes
+21:01:32,972 DEBUG kernel:e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+21:01:32,972 DEBUG kernel:e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+21:01:32,972 DEBUG kernel:pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+21:01:32,973 DEBUG kernel:pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+21:01:36,127 DEBUG kernel:libata version 3.00 loaded.
+21:01:36,144 DEBUG kernel:ata_piix 0000:00:01.1: version 2.13
+21:01:36,161 DEBUG kernel:ahci 0000:00:0d.0: version 3.0
+21:01:36,534 DEBUG kernel:sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+21:01:36,549 DEBUG kernel:sr 1:0:0:0: Attached scsi CD-ROM sr0
+21:01:37,707 DEBUG kernel:ISO 9660 Extensions: Microsoft Joliet Level 3
+21:01:37,714 DEBUG kernel:ISO 9660 Extensions: RRIP_1991A
+21:01:56,247 DEBUG NetworkManager:<debug> [1598562116.2474] monotonic timestamp started counting 1.653393430 seconds ago with an offset of 29.0 seconds to CLOCK_BOOTTIME (local time is 2020-08-27 21:01:56)
+21:01:56,248 DEBUG NetworkManager:<debug> [1598562116.2482] CONFIG: config-data[0x558cc5b7d840]: 3 groups
+21:01:56,248 DEBUG NetworkManager:<debug> [1598562116.2483] CONFIG: 
+21:01:56,248 DEBUG NetworkManager:<debug> [1598562116.2484] CONFIG: [main]
+21:01:56,248 DEBUG NetworkManager:<debug> [1598562116.2485] CONFIG:   plugins=ifcfg-rh,no-ibft
+21:01:56,248 DEBUG NetworkManager:<debug> [1598562116.2486] CONFIG:   no-auto-default=*
+21:01:56,248 DEBUG NetworkManager:<debug> [1598562116.2487] CONFIG: 
+21:01:56,248 DEBUG NetworkManager:<debug> [1598562116.2488] CONFIG: [logging]
+21:01:56,249 DEBUG NetworkManager:<debug> [1598562116.2489] CONFIG:   level=DEBUG
+21:01:56,249 DEBUG NetworkManager:<debug> [1598562116.2498] CONFIG: 
+21:01:56,249 DEBUG NetworkManager:<debug> [1598562116.2499] CONFIG: [connection]
+21:01:56,250 DEBUG NetworkManager:<debug> [1598562116.2500] CONFIG:   connection.autoconnect-slaves=1
+21:01:56,250 DEBUG NetworkManager:<debug> [1598562116.2501] CONFIG: 
+21:01:56,250 DEBUG NetworkManager:<debug> [1598562116.2502] CONFIG: # no-auto-default file "/var/lib/NetworkManager/no-auto-default.state"
+21:01:56,250 DEBUG NetworkManager:<debug> [1598562116.2503] config: state: missing state file "/var/lib/NetworkManager/NetworkManager.state": No such file or directory
+21:01:56,250 DEBUG NetworkManager:<debug> [1598562116.2504] WEXT support is disabled
+21:01:56,255 DEBUG NetworkManager:<debug> [1598562116.2558] create NMDBusManager singleton (6c5317dbd526b1ca)
+21:01:56,267 DEBUG NetworkManager:<debug> [1598562116.2677] netns[0x558cc5b94560]: new netns (net:8, mnt:9)
+21:01:56,268 DEBUG NetworkManager:<debug> [1598562116.2685] platform-linux: create (ignore netns, initial netns, use udev)
+21:01:56,280 DEBUG NetworkManager:<debug> [1598562116.2801] platform-linux: Netlink socket for events established: port=1578, fd=12
+21:01:56,280 DEBUG NetworkManager:<debug> [1598562116.2803] platform-linux: populate platform cache
+21:01:56,280 DEBUG NetworkManager:<debug> [1598562116.2805] platform: kernel-support for USER_IPV6LL (IFLA_INET6_ADDR_GEN_MODE support) detected: supported
+21:01:56,281 DEBUG NetworkManager:<debug> [1598562116.2812] platform: (lo) signal: link   added: 1: lo <UP,LOWER_UP;loopback,up,running,lowerup> mtu 65536 arp 772 loopback? not-init addrgenmode eui64 addr 00:00:00:00:00:00 brd 00:00:00:00:00:00 driver unknown rx:6,416 tx:6,416
+21:01:56,283 DEBUG NetworkManager:<debug> [1598562116.2833] platform: (enp0s3) signal: link   added: 2: enp0s3 <DOWN;broadcast,multicast> mtu 1500 arp 1 ethernet? not-init addrgenmode eui64 addr 08:00:27:38:E6:E4 brd FF:FF:FF:FF:FF:FF driver e1000 rx:0,0 tx:0,0
+21:01:56,285 DEBUG NetworkManager:<debug> [1598562116.2851] platform: kernel-support for EXTENDED_IFA_FLAGS (IPv6 temporary addresses support) detected: supported
+21:01:56,287 DEBUG NetworkManager:<debug> [1598562116.2869] platform: (lo) signal: address 4   added: 127.0.0.1/8 lft forever pref forever lifetime 1-0[4294967295,4294967295] dev 1 flags permanent src kernel
+21:01:56,287 DEBUG NetworkManager:<debug> [1598562116.2872] platform: (lo) signal: address 6   added: ::1/128 lft forever pref forever lifetime 1-0[4294967295,4294967295] dev 1 flags permanent src kernel
+21:01:56,287 DEBUG NetworkManager:<debug> [1598562116.2873] platform: kernel-support for RTA_PREF (ability to set router preference for IPv6 routes) detected: supported
+21:01:56,287 DEBUG NetworkManager:<debug> [1598562116.2875] platform: (lo) signal: route   6   added: ::1/128 via :: dev 1 metric 256 mss 0 rt-src rt-kernel
+21:01:56,287 DEBUG NetworkManager:<debug> [1598562116.2876] platform: kernel-support for FRA_PROTOCOL (FRA_PROTOCOL attribute for policy routing rules) detected: supported
+21:01:56,287 DEBUG NetworkManager:<debug> [1598562116.2877] platform: kernel-support for FRA_UID_RANGE (FRA_UID_RANGE attribute for policy routing rules) not detected: assume supported
+21:01:56,287 DEBUG NetworkManager:<debug> [1598562116.2879] platform: kernel-support for FRA_L3MDEV (FRA_L3MDEV attribute for policy routing rules) not detected: assume supported
+21:01:56,288 DEBUG NetworkManager:<debug> [1598562116.2879] platform: kernel-support for FRA_IP_PROTO (FRA_IP_PROTO, FRA_SPORT_RANGE, FRA_DPORT_RANGE attributes for policy routing rules) not detected: assume supported
+21:01:56,288 DEBUG NetworkManager:<debug> [1598562116.2880] platform: signal: rt-rule   added: [4] 0: from all lookup 255 protocol 2
+21:01:56,288 DEBUG NetworkManager:<debug> [1598562116.2881] platform: signal: rt-rule   added: [4] 32766: from all lookup 254 protocol 2
+21:01:56,288 DEBUG NetworkManager:<debug> [1598562116.2882] platform: signal: rt-rule   added: [4] 32767: from all lookup 253 protocol 2
+21:01:56,290 DEBUG NetworkManager:<debug> [1598562116.2903] platform: signal: rt-rule   added: [6] 0: from all lookup 255 protocol 2
+21:01:56,292 DEBUG NetworkManager:<debug> [1598562116.2925] platform: signal: rt-rule   added: [6] 32766: from all lookup 254 protocol 2
+21:01:56,292 DEBUG NetworkManager:<debug> [1598562116.2928] platform: (lo) signal: qdisc   added: noqueue dev 1 family 0 handle 0 parent ffffffff info 2
+21:01:56,293 DEBUG NetworkManager:<debug> [1598562116.2935] platform: (enp0s3) signal: link changed: 2: enp0s3 <DOWN;broadcast,multicast> mtu 1500 arp 1 ethernet? init addrgenmode eui64 addr 08:00:27:38:E6:E4 brd FF:FF:FF:FF:FF:FF driver e1000 rx:0,0 tx:0,0
+21:01:56,319 DEBUG NetworkManager:<debug> [1598562116.3193] platform: (lo) signal: link changed: 1: lo <UP,LOWER_UP;loopback,up,running,lowerup> mtu 65536 arp 772 loopback? init addrgenmode eui64 addr 00:00:00:00:00:00 brd 00:00:00:00:00:00 driver unknown rx:6,416 tx:6,416
+21:01:56,319 DEBUG NetworkManager:<debug> [1598562116.3197] setup NMPlatform singleton (0f27425ec3628455)
+21:01:56,319 DEBUG NetworkManager:<debug> [1598562116.3199] rules-manager: routing-rule: track [282ac5c77b4b9692,0] "[4] 0: from all lookup 255 protocol 2")
+21:01:56,320 DEBUG NetworkManager:<debug> [1598562116.3200] rules-manager: routing-rule: track [282ac5c77b4b9692,0] "[4] 32766: from all lookup 254 protocol 2")
+21:01:56,320 DEBUG NetworkManager:<debug> [1598562116.3201] rules-manager: routing-rule: track [282ac5c77b4b9692,0] "[4] 32767: from all lookup 253 protocol 2")
+21:01:56,320 DEBUG NetworkManager:<debug> [1598562116.3202] rules-manager: routing-rule: track [282ac5c77b4b9692,0] "[6] 0: from all lookup 255 protocol 2")
+21:01:56,325 DEBUG NetworkManager:<debug> [1598562116.3254] rules-manager: routing-rule: track [282ac5c77b4b9692,0] "[6] 32766: from all lookup 254 protocol 2")
+21:01:56,329 DEBUG NetworkManager:<debug> [1598562116.3299] rules-manager: routing-rule: track [7702fa82987dae91,0] "[4] 0: from all lookup 255 protocol 2")
+21:01:56,330 DEBUG NetworkManager:<debug> [1598562116.3308] rules-manager: routing-rule: track [7702fa82987dae91,0] "[4] 32766: from all lookup 254 protocol 2")
+21:01:56,335 DEBUG NetworkManager:<debug> [1598562116.3350] rules-manager: routing-rule: track [7702fa82987dae91,0] "[4] 32767: from all lookup 253 protocol 2")
+21:01:56,340 DEBUG NetworkManager:<debug> [1598562116.3408] rules-manager: routing-rule: track [7702fa82987dae91,0] "[6] 0: from all lookup 255 protocol 2")
+21:01:56,341 DEBUG NetworkManager:<debug> [1598562116.3416] rules-manager: routing-rule: track [7702fa82987dae91,0] "[6] 32766: from all lookup 254 protocol 2")
+21:01:56,348 DEBUG NetworkManager:<debug> [1598562116.3484] create NMNetns singleton (e078523e01d3f100)
+21:01:56,353 DEBUG NetworkManager:<debug> [1598562116.3533] auth[0x558cc5b7e5e0]: create auth-manager: polkit enabled
+21:01:56,353 DEBUG NetworkManager:<debug> [1598562116.3535] auth[0x558cc5b7e5e0]: set instance
+21:01:56,354 DEBUG NetworkManager:<debug> [1598562116.3542] setup NMAuthManager singleton (e793a08bf421653c)
+21:01:56,418 DEBUG NetworkManager:<debug> [1598562116.4183] session-monitor: using systemd-logind session tracking
+21:01:56,419 DEBUG NetworkManager:<debug> [1598562116.4197] create NMSessionMonitor singleton (bb1bb6798b3b87fc)
+21:01:56,423 DEBUG NetworkManager:<debug> [1598562116.4235] create NMAgentManager singleton (3cc9b1c32c007a94)
+21:01:59,305 DEBUG NetworkManager:<debug> [1598562119.3038] create NMHostnameManager singleton (26cc140f01ede76b)
+21:01:59,305 DEBUG NetworkManager:<debug> [1598562119.3040] create NMFirewallManager singleton (6e1e8a73dc7229bc)
+21:01:59,305 DEBUG NetworkManager:<debug> [1598562119.3041] create NMDnsManager singleton (a2171cb8771a2383)
+21:01:59,305 DEBUG NetworkManager:<debug> [1598562119.3041] policy: hostname-mode: full
+21:01:59,305 DEBUG NetworkManager:<debug> [1598562119.3044] setup NMManager singleton (f248b18e491af7e7)
+21:01:59,311 DEBUG NetworkManager:<debug> [1598562119.3065] create NMConnectivity singleton (29e3e59e4766e27f)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3117] Loaded device plugin: NM6LowpanDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3118] Loaded device plugin: NMBondDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3118] Loaded device plugin: NMBridgeDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3118] Loaded device plugin: NMDummyDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3118] Loaded device plugin: NMEthernetDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3118] Loaded device plugin: NMInfinibandDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3119] Loaded device plugin: NMIPTunnelDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3119] Loaded device plugin: NMMacsecDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3119] Loaded device plugin: NMMacvlanDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3119] Loaded device plugin: NMPppDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3120] Loaded device plugin: NMTunDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3120] Loaded device plugin: NMVethDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3120] Loaded device plugin: NMVlanDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3120] Loaded device plugin: NMVxlanDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3120] Loaded device plugin: NMWireGuardDeviceFactory (internal)
+21:01:59,312 DEBUG NetworkManager:<debug> [1598562119.3120] Loaded device plugin: NMWpanDeviceFactory (internal)
+21:01:59,328 DEBUG NetworkManager:<debug> [1598562119.3288] dispatcher: (1) dispatching action 'hostname'
+21:01:59,334 DEBUG NetworkManager:<debug> [1598562119.3343] dhcp-init: enabled DHCP client 'dhclient'
+21:01:59,335 DEBUG NetworkManager:<debug> [1598562119.3350] dhcp-init: enabled DHCP client 'internal'
+21:01:59,335 DEBUG NetworkManager:<debug> [1598562119.3351] dhcp-init: enabled DHCP client 'systemd' (undocumented internal plugin)
+21:01:59,335 DEBUG NetworkManager:<debug> [1598562119.3352] dhcp-init: enabled DHCP client 'nettools' (undocumented internal plugin)
+21:01:59,335 DEBUG NetworkManager:<debug> [1598562119.3354] create NMDhcpManager singleton (0f1dabcdeec0772e)
+21:01:59,357 DEBUG NetworkManager:<debug> [1598562119.3575] device[69f5051119d1bf2d] (lo): unmanaged: flags set to [platform-init,by-default=0x110/0x110/unmanaged/unrealized], set-unmanaged [by-default=0x100])
+21:01:59,357 DEBUG NetworkManager:<debug> [1598562119.3578] device[69f5051119d1bf2d] (lo): constructed (NMDeviceGeneric)
+21:01:59,358 DEBUG NetworkManager:<debug> [1598562119.3579] device[69f5051119d1bf2d] (lo): start setup of NMDeviceGeneric, kernel ifindex 1
+21:01:59,358 DEBUG NetworkManager:<debug> [1598562119.3580] device[69f5051119d1bf2d] (lo): assume-state: set guess-assume=1, connection=(null)
+21:01:59,358 DEBUG NetworkManager:<debug> [1598562119.3583] platform-linux: error reading net:/sys/class/net/lo/phys_port_id: error reading 4096 bytes from file descriptor: Operation not supported
+21:01:59,358 DEBUG NetworkManager:<debug> [1598562119.3585] platform-linux: sysctl: reading 'net:/sys/class/net/lo/dev_id': '0x0'
+21:01:59,358 DEBUG NetworkManager:<debug> [1598562119.3587] platform-linux: error reading net:/sys/class/net/lo/device/sriov_totalvfs: Failed to open file "device/sriov_totalvfs" with openat: No such file or directory
+21:01:59,358 DEBUG NetworkManager:<debug> [1598562119.3589] device[69f5051119d1bf2d] (lo): hw-addr: hardware address now 00:00:00:00:00:00
+21:01:59,359 DEBUG NetworkManager:<debug> [1598562119.3593] device[69f5051119d1bf2d] (lo): hw-addr: update initial MAC address 00:00:00:00:00:00
+21:01:59,359 DEBUG NetworkManager:<debug> [1598562119.3595] device[69f5051119d1bf2d] (lo): hw-addr: unable to read permanent MAC address (use current: 00:00:00:00:00:00)
+21:01:59,359 DEBUG NetworkManager:<debug> [1598562119.3597] device[69f5051119d1bf2d] (lo): unmanaged: flags set to [platform-init,by-default,!external-down=0x110/0x910/unmanaged/unrealized], set-managed [external-down=0x800])
+21:01:59,359 DEBUG NetworkManager:<debug> [1598562119.3599] device[69f5051119d1bf2d] (lo): unmanaged: flags set to [by-type,platform-init,by-default,!external-down=0x118/0x918/unmanaged/unrealized], set-unmanaged [by-type=0x8])
+21:01:59,360 DEBUG NetworkManager:<debug> [1598562119.3600] device[69f5051119d1bf2d] (lo): unmanaged: flags set to [by-type,platform-init,by-default,!user-settings,!external-down=0x118/0x958/unmanaged/unrealized], set-managed [user-settings=0x40])
+21:01:59,360 DEBUG NetworkManager:<debug> [1598562119.3601] device[69f5051119d1bf2d] (lo): unmanaged: flags set to [by-type,by-default,!platform-init,!user-settings,!external-down=0x108/0x958/unmanaged/unrealized], set-managed [platform-init=0x10])
+21:01:59,360 DEBUG NetworkManager:<debug> [1598562119.3602] device[69f5051119d1bf2d] (lo): unmanaged: flags set to [by-type,by-default,!sleeping,!platform-init,!user-settings,!external-down=0x108/0x959/unmanaged/unrealized], set-managed [sleeping=0x1])
+21:01:59,370 DEBUG NetworkManager:<debug> [1598562119.3702] device[69f5051119d1bf2d] (lo): assume-state: set guess-assume=0, connection=(null)
+21:01:59,370 DEBUG NetworkManager:<debug> [1598562119.3705] device[78160529a5a3f25d] (enp0s3): constructed (NMDeviceEthernet)
+21:01:59,371 DEBUG NetworkManager:<debug> [1598562119.3711] device[78160529a5a3f25d] (enp0s3): start setup of NMDeviceEthernet, kernel ifindex 2
+21:01:59,371 DEBUG NetworkManager:<debug> [1598562119.3713] device[78160529a5a3f25d] (enp0s3): assume-state: set guess-assume=1, connection=(null)
+21:01:59,371 DEBUG NetworkManager:<debug> [1598562119.3715] platform-linux: error reading net:/sys/class/net/enp0s3/phys_port_id: error reading 4096 bytes from file descriptor: Operation not supported
+21:01:59,371 DEBUG NetworkManager:<debug> [1598562119.3717] platform-linux: sysctl: reading 'net:/sys/class/net/enp0s3/dev_id': '0x0'
+21:01:59,371 DEBUG NetworkManager:<debug> [1598562119.3719] platform-linux: error reading net:/sys/class/net/enp0s3/device/sriov_totalvfs: Failed to open file "device/sriov_totalvfs" with openat: No such file or directory
+21:01:59,374 DEBUG NetworkManager:<debug> [1598562119.3741] device[78160529a5a3f25d] (enp0s3): hw-addr: hardware address now 08:00:27:38:E6:E4
+21:01:59,374 DEBUG NetworkManager:<debug> [1598562119.3744] device[78160529a5a3f25d] (enp0s3): hw-addr: update initial MAC address 08:00:27:38:E6:E4
+21:01:59,374 DEBUG NetworkManager:<debug> [1598562119.3745] device[78160529a5a3f25d] (enp0s3): hw-addr: read permanent MAC address '08:00:27:38:E6:E4'
+21:01:59,374 DEBUG NetworkManager:<debug> [1598562119.3747] device[78160529a5a3f25d] (enp0s3): unmanaged: flags set to [platform-init,!by-type=0x10/0x18/unmanaged/unrealized], set-managed [by-type=0x8])
+21:01:59,375 DEBUG NetworkManager:<debug> [1598562119.3749] device[78160529a5a3f25d] (enp0s3): unmanaged: flags set to [platform-init,!by-type,!user-settings=0x10/0x58/unmanaged/unrealized], set-managed [user-settings=0x40])
+21:01:59,375 DEBUG NetworkManager:<debug> [1598562119.3750] device[78160529a5a3f25d] (enp0s3): unmanaged: flags set to [!by-type,!platform-init,!user-settings=0x0/0x58/managed/unrealized], set-managed [platform-init=0x10])
+21:01:59,375 DEBUG NetworkManager:<debug> [1598562119.3752] device[78160529a5a3f25d] (enp0s3): unmanaged: flags set to [!sleeping,!by-type,!platform-init,!user-settings=0x0/0x59/managed/unrealized], set-managed [sleeping=0x1])
+21:01:59,381 DEBUG NetworkManager:<debug> [1598562119.3813] device[78160529a5a3f25d] (enp0s3): ip4-config: update (commit=0, new-config=0x558cc5bb2260)
+21:01:59,383 DEBUG NetworkManager:<debug> [1598562119.3832] device[78160529a5a3f25d] (enp0s3): ip4-config: set IP Config instance (/org/freedesktop/NetworkManager/IP4Config/1)
+21:01:59,384 DEBUG NetworkManager:<debug> [1598562119.3843] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:01:59,384 DEBUG NetworkManager:<debug> [1598562119.3845] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:01:59,384 DEBUG NetworkManager:<debug> [1598562119.3846] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:01:59,384 DEBUG NetworkManager:<debug> [1598562119.3849] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/enp0s3/disable_ipv6': '0'
+21:01:59,385 DEBUG NetworkManager:<debug> [1598562119.3858] device[78160529a5a3f25d] (enp0s3): ip6-config: update (commit=0, new-config=0x558cc5b98390)
+21:01:59,386 DEBUG NetworkManager:<debug> [1598562119.3868] device[78160529a5a3f25d] (enp0s3): ip6-config: set IP Config instance (/org/freedesktop/NetworkManager/IP6Config/1)
+21:01:59,389 DEBUG NetworkManager:<debug> [1598562119.3891] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:01:59,389 DEBUG NetworkManager:<debug> [1598562119.3892] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:01:59,389 DEBUG NetworkManager:<debug> [1598562119.3894] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:01:59,389 DEBUG NetworkManager:<debug> [1598562119.3895] device[78160529a5a3f25d] (enp0s3): assume-state: set guess-assume=0, connection=(null)
+21:01:59,389 DEBUG NetworkManager:<debug> [1598562119.3896] manager: (enp0s3): assume: cannot generate connection: device has no existing configuration
+21:01:59,389 DEBUG NetworkManager:<debug> [1598562119.3898] device[78160529a5a3f25d] (enp0s3): add_pending_action (1): 'in-state-change'
+21:01:59,390 DEBUG NetworkManager:<debug> [1598562119.3900] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/enp0s3/accept_ra': '1'
+21:01:59,390 DEBUG NetworkManager:<debug> [1598562119.3906] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/enp0s3/forwarding': '0'
+21:01:59,390 DEBUG NetworkManager:<debug> [1598562119.3908] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/enp0s3/hop_limit': '64'
+21:01:59,391 DEBUG NetworkManager:<debug> [1598562119.3910] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/enp0s3/use_tempaddr': '0'
+21:01:59,391 DEBUG NetworkManager:<debug> [1598562119.3911] device[78160529a5a3f25d] (enp0s3): will enable userland IPv6LL
+21:01:59,391 DEBUG NetworkManager:<debug> [1598562119.3912] platform-linux: link: change 2: user-ipv6ll: set IPv6 address generation mode to none
+21:01:59,391 DEBUG NetworkManager:<debug> [1598562119.3913] platform-linux: do-request-link: 2 
+21:01:59,391 DEBUG NetworkManager:<debug> [1598562119.3915] platform: (enp0s3) signal: link changed: 2: enp0s3 <DOWN;broadcast,multicast> mtu 1500 arp 1 ethernet? init addrgenmode none addr 08:00:27:38:E6:E4 brd FF:FF:FF:FF:FF:FF driver e1000 rx:0,0 tx:0,0
+21:01:59,392 DEBUG NetworkManager:<debug> [1598562119.3920] device[78160529a5a3f25d] (enp0s3): queued link change for ifindex 2
+21:01:59,392 DEBUG NetworkManager:<debug> [1598562119.3922] platform-linux: do-change-link[2]: success changing link: success
+21:01:59,392 DEBUG NetworkManager:<debug> [1598562119.3926] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/disable_ipv6' to '1' (current value is '0')
+21:01:59,393 DEBUG NetworkManager:<debug> [1598562119.3936] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/disable_ipv6' to '0' (current value is '1')
+21:01:59,393 DEBUG NetworkManager:<debug> [1598562119.3938] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/accept_ra' to '0' (current value is '1')
+21:01:59,394 DEBUG NetworkManager:<debug> [1598562119.3941] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/use_tempaddr' to '0' (current value is identical)
+21:01:59,394 DEBUG NetworkManager:<debug> [1598562119.3942] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/forwarding' to '0' (current value is identical)
+21:01:59,394 DEBUG NetworkManager:<debug> [1598562119.3947] device[78160529a5a3f25d] (enp0s3): bringing up device 2
+21:01:59,394 DEBUG NetworkManager:<debug> [1598562119.3949] platform: (enp0s3) link: setting up
+21:01:59,395 DEBUG NetworkManager:<debug> [1598562119.3950] platform-linux: link: change 2: flags: set 0x1/0x1 ([up] / [up])
+21:01:59,405 DEBUG nm-dispatcher:req:1 'hostname': environment: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+21:01:59,405 DEBUG nm-dispatcher:req:1 'hostname': environment: NM_DISPATCHER_ACTION=hostname
+21:01:59,405 DEBUG nm-dispatcher:req:1 'hostname', "/etc/NetworkManager/dispatcher.d/04-iscsi": run script
+21:01:59,412 DEBUG NetworkManager:<debug> [1598562119.4126] platform-linux: do-request-link: 2 
+21:01:59,412 DEBUG NetworkManager:<debug> [1598562119.4128] platform: (enp0s3) signal: link changed: 2: enp0s3 <UP;broadcast,multicast,up> mtu 1500 arp 1 ethernet? init addrgenmode none addr 08:00:27:38:E6:E4 brd FF:FF:FF:FF:FF:FF driver e1000 rx:0,0 tx:0,0
+21:01:59,413 DEBUG NetworkManager:<debug> [1598562119.4130] platform: (enp0s3) signal: route   6   added: table 255 ff00::/8 via :: dev 2 metric 256 mss 0 rt-src rt-boot
+21:01:59,413 DEBUG NetworkManager:<debug> [1598562119.4132] platform: (enp0s3) signal: link changed: 2: enp0s3 <UP,LOWER_UP;broadcast,multicast,up,running,lowerup> mtu 1500 arp 1 ethernet? init addrgenmode none addr 08:00:27:38:E6:E4 brd FF:FF:FF:FF:FF:FF driver e1000 rx:0,0 tx:0,0
+21:01:59,413 DEBUG NetworkManager:<debug> [1598562119.4134] platform-linux: do-change-link[2]: success changing link: success
+21:01:59,415 DEBUG NetworkManager:<debug> [1598562119.4153] device[78160529a5a3f25d] (enp0s3): speed is now 1000 Mb/s
+21:01:59,416 DEBUG nm-dispatcher:req:1 'hostname', "/etc/NetworkManager/dispatcher.d/04-iscsi": complete
+21:01:59,416 DEBUG nm-dispatcher:req:1 'hostname', "/etc/NetworkManager/dispatcher.d/11-dhclient": run script
+21:01:59,417 DEBUG NetworkManager:<debug> [1598562119.4174] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'queued-state-change-disconnected'
+21:01:59,417 DEBUG NetworkManager:<debug> [1598562119.4175] device[78160529a5a3f25d] (enp0s3): queue-state[disconnected, reason:carrier-changed, id:27]: queue state change
+21:01:59,417 DEBUG NetworkManager:<debug> [1598562119.4177] device[78160529a5a3f25d] (enp0s3): preparing device
+21:01:59,417 DEBUG NetworkManager:<debug> [1598562119.4179] device[78160529a5a3f25d] (enp0s3): queue-state[disconnected, reason:carrier-changed, id:27]: clear queued state change
+21:01:59,418 DEBUG NetworkManager:<debug> [1598562119.4182] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'queued-state-change-disconnected'
+21:01:59,418 DEBUG NetworkManager:<debug> [1598562119.4184] device[78160529a5a3f25d] (enp0s3): clearing queued IP4 config change
+21:01:59,418 DEBUG NetworkManager:<debug> [1598562119.4185] device[78160529a5a3f25d] (enp0s3): clearing queued IP6 config change
+21:01:59,418 DEBUG NetworkManager:<debug> [1598562119.4189] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/use_tempaddr' to '0' (current value is identical)
+21:01:59,423 DEBUG NetworkManager:<debug> [1598562119.4231] platform: (enp0s3) ip6-route: delete table 255 ff00::/8 via :: dev 2 metric 256 mss 0 rt-src rt-boot
+21:01:59,424 DEBUG NetworkManager:<debug> [1598562119.4248] platform: (enp0s3) signal: route   6 removed: table 255 ff00::/8 via :: dev 2 metric 256 mss 0 rt-src rt-boot
+21:01:59,425 DEBUG NetworkManager:<debug> [1598562119.4258] device[78160529a5a3f25d] (enp0s3): queued IP6 config change
+21:01:59,426 DEBUG NetworkManager:<debug> [1598562119.4260] platform-linux: do-delete-ip6-route[table 255 ff00::/8 via :: dev 2 metric 256 mss 0 rt-src rt-boot]: success
+21:01:59,426 DEBUG NetworkManager:<debug> [1598562119.4261] rules-manager: sync
+21:01:59,426 DEBUG NetworkManager:<debug> [1598562119.4262] device[78160529a5a3f25d] (enp0s3): ip4-config: update (commit=1, new-config=(nil))
+21:01:59,426 DEBUG NetworkManager:<debug> [1598562119.4263] device[78160529a5a3f25d] (enp0s3): ip4-config: clear IP Config instance (/org/freedesktop/NetworkManager/IP4Config/1)
+21:01:59,427 DEBUG NetworkManager:<debug> [1598562119.4271] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:01:59,427 DEBUG NetworkManager:<debug> [1598562119.4272] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:01:59,427 DEBUG NetworkManager:<debug> [1598562119.4273] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:01:59,427 DEBUG NetworkManager:<debug> [1598562119.4279] device[78160529a5a3f25d] (enp0s3): ip6-config: update (commit=1, new-config=(nil))
+21:01:59,428 DEBUG NetworkManager:<debug> [1598562119.4281] device[78160529a5a3f25d] (enp0s3): ip6-config: clear IP Config instance (/org/freedesktop/NetworkManager/IP6Config/1)
+21:01:59,429 DEBUG NetworkManager:<debug> [1598562119.4291] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:01:59,429 DEBUG NetworkManager:<debug> [1598562119.4293] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:01:59,429 DEBUG NetworkManager:<debug> [1598562119.4294] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:01:59,433 DEBUG NetworkManager:<debug> [1598562119.4333] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'recheck-available'
+21:01:59,437 DEBUG nm-dispatcher:req:1 'hostname', "/etc/NetworkManager/dispatcher.d/11-dhclient": complete
+21:01:59,437 DEBUG nm-dispatcher:req:1 'hostname', "/etc/NetworkManager/dispatcher.d/20-chrony": run script
+21:01:59,440 DEBUG NetworkManager:<debug> [1598562119.4409] device[78160529a5a3f25d] (enp0s3): connectivity state changed from UNKNOWN to NONE
+21:01:59,441 DEBUG NetworkManager:<debug> [1598562119.4415] manager: connectivity checking indicates NONE
+21:01:59,442 DEBUG NetworkManager:<debug> [1598562119.4421] dispatcher: (2) dispatching action 'connectivity-change'
+21:01:59,443 DEBUG nm-dispatcher:req:1 'hostname', "/etc/NetworkManager/dispatcher.d/20-chrony": complete
+21:01:59,443 DEBUG nm-dispatcher:req:1 'hostname': completed (3 scripts)
+21:01:59,444 DEBUG nm-dispatcher:req:2 'connectivity-change': environment: CONNECTIVITY_STATE=NONE
+21:01:59,444 DEBUG nm-dispatcher:req:2 'connectivity-change': environment: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+21:01:59,444 DEBUG nm-dispatcher:req:2 'connectivity-change': environment: NM_DISPATCHER_ACTION=connectivity-change
+21:01:59,444 DEBUG nm-dispatcher:req:2 'connectivity-change', "/etc/NetworkManager/dispatcher.d/04-iscsi": run script
+21:01:59,445 DEBUG NetworkManager:<debug> [1598562119.4451] device[78160529a5a3f25d] (enp0s3): connectivity state changed from UNKNOWN to NONE
+21:01:59,446 DEBUG NetworkManager:<debug> [1598562119.4465] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'in-state-change'
+21:01:59,448 DEBUG NetworkManager:<debug> [1598562119.4486] create NMVpnManager singleton (d4b05bd7235341c5)
+21:01:59,448 DEBUG NetworkManager:<debug> [1598562119.4487] manager: creating virtual devices...
+21:01:59,448 DEBUG NetworkManager:<debug> [1598562119.4489] setting up local loopback
+21:01:59,449 DEBUG NetworkManager:<debug> [1598562119.4490] platform: (lo) link: setting up
+21:01:59,449 DEBUG NetworkManager:<debug> [1598562119.4491] platform-linux: link: change 1: flags: set 0x1/0x1 ([up] / [up])
+21:01:59,449 DEBUG NetworkManager:<debug> [1598562119.4492] platform-linux: do-request-link: 1 
+21:01:59,449 DEBUG NetworkManager:<debug> [1598562119.4494] platform-linux: do-change-link[1]: success changing link: success
+21:01:59,451 DEBUG nm-dispatcher:req:2 'connectivity-change', "/etc/NetworkManager/dispatcher.d/04-iscsi": complete
+21:01:59,451 DEBUG nm-dispatcher:req:2 'connectivity-change', "/etc/NetworkManager/dispatcher.d/11-dhclient": run script
+21:01:59,459 DEBUG NetworkManager:<debug> [1598562119.4594] dispatcher: (1) /etc/NetworkManager/dispatcher.d/04-iscsi succeeded
+21:01:59,459 DEBUG NetworkManager:<debug> [1598562119.4596] dispatcher: (1) /etc/NetworkManager/dispatcher.d/11-dhclient succeeded
+21:01:59,459 DEBUG NetworkManager:<debug> [1598562119.4597] dispatcher: (1) /etc/NetworkManager/dispatcher.d/20-chrony succeeded
+21:01:59,460 DEBUG NetworkManager:<debug> [1598562119.4599] sleep-monitor-sd: inhibit: taking sleep inhibitor...
+21:01:59,460 DEBUG nm-dispatcher:req:2 'connectivity-change', "/etc/NetworkManager/dispatcher.d/11-dhclient": complete
+21:01:59,461 DEBUG nm-dispatcher:req:2 'connectivity-change', "/etc/NetworkManager/dispatcher.d/20-chrony": run script
+21:01:59,463 DEBUG NetworkManager:<debug> [1598562119.4630] ifcfg-rh: dbus: acquired D-Bus service com.redhat.ifcfgrh1 and exported /com/redhat/ifcfgrh1 object
+21:01:59,463 DEBUG NetworkManager:<debug> [1598562119.4632] sleep-monitor-sd: inhibit: inhibitor fd is 19
+21:01:59,463 DEBUG NetworkManager:<debug> [1598562119.4638] device[69f5051119d1bf2d] (lo): ip4-config: update (commit=0, new-config=0x558cc5bb2130)
+21:01:59,469 DEBUG NetworkManager:<debug> [1598562119.4693] device[69f5051119d1bf2d] (lo): ip4-config: set IP Config instance (/org/freedesktop/NetworkManager/IP4Config/2)
+21:01:59,471 DEBUG NetworkManager:<debug> [1598562119.4712] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:01:59,471 DEBUG NetworkManager:<debug> [1598562119.4713] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:01:59,471 DEBUG NetworkManager:<debug> [1598562119.4715] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:01:59,471 DEBUG NetworkManager:<debug> [1598562119.4717] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/lo/disable_ipv6': '0'
+21:01:59,471 DEBUG NetworkManager:<debug> [1598562119.4719] device[69f5051119d1bf2d] (lo): ip6-config: update (commit=0, new-config=0x558cc5b98170)
+21:01:59,474 DEBUG nm-dispatcher:req:2 'connectivity-change', "/etc/NetworkManager/dispatcher.d/20-chrony": complete
+21:01:59,474 DEBUG nm-dispatcher:req:2 'connectivity-change': completed (3 scripts)
+21:01:59,475 DEBUG NetworkManager:<debug> [1598562119.4749] device[69f5051119d1bf2d] (lo): ip6-config: set IP Config instance (/org/freedesktop/NetworkManager/IP6Config/2)
+21:01:59,475 DEBUG NetworkManager:<debug> [1598562119.4757] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:01:59,475 DEBUG NetworkManager:<debug> [1598562119.4758] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:01:59,476 DEBUG NetworkManager:<debug> [1598562119.4765] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:01:59,476 DEBUG NetworkManager:<debug> [1598562119.4766] manager: (enp0s3): assume: cannot generate connection: device has no existing configuration
+21:01:59,477 DEBUG NetworkManager:<debug> [1598562119.4772] device[78160529a5a3f25d] (enp0s3): ip6-config: update (commit=0, new-config=0x558cc5b986c0)
+21:01:59,478 DEBUG NetworkManager:<debug> [1598562119.4780] device[78160529a5a3f25d] (enp0s3): ip6-config: set IP Config instance (/org/freedesktop/NetworkManager/IP6Config/3)
+21:01:59,479 DEBUG NetworkManager:<debug> [1598562119.4795] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:01:59,479 DEBUG NetworkManager:<debug> [1598562119.4796] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:01:59,479 DEBUG NetworkManager:<debug> [1598562119.4798] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:01:59,479 DEBUG NetworkManager:<debug> [1598562119.4799] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'queued-state-change-disconnected'
+21:01:59,480 DEBUG NetworkManager:<debug> [1598562119.4800] device[78160529a5a3f25d] (enp0s3): queue-state[disconnected, reason:none, id:45]: queue state change
+21:01:59,480 DEBUG NetworkManager:<debug> [1598562119.4801] device[78160529a5a3f25d] (enp0s3): is available, will transition to disconnected
+21:01:59,480 DEBUG NetworkManager:<debug> [1598562119.4803] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'recheck-available'
+21:01:59,480 DEBUG NetworkManager:<debug> [1598562119.4805] dispatcher: (2) /etc/NetworkManager/dispatcher.d/04-iscsi succeeded
+21:01:59,480 DEBUG NetworkManager:<debug> [1598562119.4806] dispatcher: (2) /etc/NetworkManager/dispatcher.d/11-dhclient succeeded
+21:01:59,480 DEBUG NetworkManager:<debug> [1598562119.4807] dispatcher: (2) /etc/NetworkManager/dispatcher.d/20-chrony succeeded
+21:01:59,480 DEBUG NetworkManager:<debug> [1598562119.4808] manager: (lo): assume: don't assume because not managed
+21:01:59,481 DEBUG NetworkManager:<debug> [1598562119.4810] manager: (enp0s3): assume: cannot generate connection: device has no existing configuration
+21:01:59,481 DEBUG NetworkManager:<debug> [1598562119.4813] device[78160529a5a3f25d] (enp0s3): queue-state[disconnected, reason:none, id:45]: change state
+21:01:59,481 DEBUG NetworkManager:<debug> [1598562119.4815] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'in-state-change'
+21:01:59,481 DEBUG NetworkManager:<debug> [1598562119.4816] device[78160529a5a3f25d] (enp0s3): will enable userland IPv6LL
+21:01:59,481 DEBUG NetworkManager:<debug> [1598562119.4817] platform-linux: link: change 2: user-ipv6ll: set IPv6 address generation mode to none
+21:01:59,481 DEBUG NetworkManager:<debug> [1598562119.4819] platform-linux: do-request-link: 2 
+21:01:59,482 DEBUG NetworkManager:<debug> [1598562119.4821] platform-linux: do-change-link[2]: success changing link: success
+21:01:59,483 DEBUG NetworkManager:<debug> [1598562119.4834] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/disable_ipv6' to '1' (current value is '0')
+21:01:59,484 DEBUG NetworkManager:<debug> [1598562119.4840] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/disable_ipv6' to '0' (current value is '1')
+21:01:59,489 DEBUG NetworkManager:<debug> [1598562119.4892] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/accept_ra' to '0' (current value is identical)
+21:01:59,489 DEBUG NetworkManager:<debug> [1598562119.4894] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/use_tempaddr' to '0' (current value is identical)
+21:01:59,489 DEBUG NetworkManager:<debug> [1598562119.4896] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/forwarding' to '0' (current value is identical)
+21:01:59,491 DEBUG NetworkManager:<debug> [1598562119.4917] device[78160529a5a3f25d] (enp0s3): add_pending_action (3): 'autoactivate'
+21:01:59,491 DEBUG NetworkManager:<debug> [1598562119.4919] device[78160529a5a3f25d] (enp0s3): remove_pending_action (2): 'in-state-change'
+21:01:59,492 DEBUG NetworkManager:<debug> [1598562119.4921] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'queued-state-change-disconnected'
+21:01:59,492 DEBUG NetworkManager:<debug> [1598562119.4923] platform: (enp0s3) signal: route   6   added: table 255 ff00::/8 via :: dev 2 metric 256 mss 0 rt-src rt-boot
+21:01:59,494 DEBUG NetworkManager:<debug> [1598562119.4941] device[78160529a5a3f25d] (enp0s3): queued IP6 config change
+21:01:59,494 DEBUG NetworkManager:<debug> [1598562119.4942] device[78160529a5a3f25d] (enp0s3): remove_pending_action (0): 'autoactivate'
+21:01:59,494 DEBUG NetworkManager:<debug> [1598562119.4944] device[78160529a5a3f25d] (enp0s3): ip6-config: update (commit=0, new-config=0x558cc5b989f0)
+21:01:59,495 DEBUG NetworkManager:<debug> [1598562119.4954] device[78160529a5a3f25d] (enp0s3): ip6-config: update IP Config instance (/org/freedesktop/NetworkManager/IP6Config/3)
+21:01:59,495 DEBUG NetworkManager:<debug> [1598562119.4955] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:01:59,495 DEBUG NetworkManager:<debug> [1598562119.4957] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:01:59,495 DEBUG NetworkManager:<debug> [1598562119.4958] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:01:59,495 DEBUG NetworkManager:<debug> [1598562119.4959] manager: (enp0s3): assume: cannot generate connection: device has no existing configuration
+21:02:18,761 DEBUG NetworkManager:<debug> [1598562138.7619] ++ connection 'new connection' (0x558cc5bdf4e0/NMSimpleConnection/"802-3-ethernet"): [/org/freedesktop/NetworkManager/Settings/1]
+21:02:18,762 DEBUG NetworkManager:<debug> [1598562138.7623] ++ connection                [ 0x7f15640044f0 ]
+21:02:18,762 DEBUG NetworkManager:<debug> [1598562138.7624] ++ connection.autoconnect    = FALSE
+21:02:18,762 DEBUG NetworkManager:<debug> [1598562138.7625] ++ connection.id             = 'enp0s3'
+21:02:18,762 DEBUG NetworkManager:<debug> [1598562138.7626] ++ connection.interface-name = 'enp0s3'
+21:02:18,762 DEBUG NetworkManager:<debug> [1598562138.7627] ++ connection.permissions    = []
+21:02:18,762 DEBUG NetworkManager:<debug> [1598562138.7627] ++ connection.type           = '802-3-ethernet'
+21:02:18,762 DEBUG NetworkManager:<debug> [1598562138.7628] ++ connection.uuid           = '61e71fca-3f33-4a64-aca1-9e7935a73c89'
+21:02:18,762 DEBUG NetworkManager:<debug> [1598562138.7629] ++ 802-3-ethernet            [ 0x558cc5b63d70 ]
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7630] ++ 802-3-ethernet.mac-address-blacklist = []
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7630] ++ 802-3-ethernet.s390-options = ((GHashTable*) 0x558cc5bc5700)
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7631] ++ ipv4                      [ 0x558cc5b95110 ]
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7632] ++ ipv4.addresses            = ((GPtrArray*) 0x7f1568003300)
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7633] ++ ipv4.dns                  = []
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7634] ++ ipv4.dns-search           = []
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7635] ++ ipv4.method               = 'auto'
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7635] ++ ipv4.routes               = ((GPtrArray*) 0x558cc5bad300)
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7636] ++ ipv4.routing-rules        = <unknown>
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7637] ++ ipv6                      [ 0x558cc5b5a290 ]
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7638] ++ ipv6.addresses            = ((GPtrArray*) 0x558cc5bc42c0)
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7638] ++ ipv6.dns                  = []
+21:02:18,763 DEBUG NetworkManager:<debug> [1598562138.7639] ++ ipv6.dns-search           = []
+21:02:18,764 DEBUG NetworkManager:<debug> [1598562138.7640] ++ ipv6.method               = 'auto'
+21:02:18,764 DEBUG NetworkManager:<debug> [1598562138.7641] ++ ipv6.routes               = ((GPtrArray*) 0x558cc5bada80)
+21:02:18,764 DEBUG NetworkManager:<debug> [1598562138.7642] ++ ipv6.routing-rules        = <unknown>
+21:02:18,768 DEBUG NetworkManager:<debug> [1598562138.7681] create NMAuditManager singleton (0b153116a5eee375)
+21:02:18,768 DEBUG NetworkManager:<debug> [1598562138.7686] Saving secrets for connection /org/freedesktop/NetworkManager/Settings/1 (enp0s3)
+21:02:18,772 DEBUG NetworkManager:<debug> [1598562138.7725] device[78160529a5a3f25d] (enp0s3): add_pending_action (1): 'autoactivate'
+21:02:18,772 DEBUG NetworkManager:<debug> [1598562138.7727] device[78160529a5a3f25d] (enp0s3): remove_pending_action (0): 'autoactivate'
+21:03:00,904 DEBUG NetworkManager:<debug> [1598562180.9043] agent-manager: agent[d72142792d137805,:1.54/anaconda/0]: requesting permissions
+21:03:00,904 DEBUG NetworkManager:<debug> [1598562180.9044] policy: re-enabling autoconnect for all connections (only clear no-secrets flag)
+21:11:05,591 DEBUG NetworkManager:<debug> [1598562665.5889] active-connection[0x558cc5bb2300]: set device "enp0s3" [0x558cc5b8e540]
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5889] device[78160529a5a3f25d] (enp0s3): add_pending_action (1): 'activation-1'
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5891] active-connection[0x558cc5bb2300]: constructed (NMActRequest, version-id 1, type managed)
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5891] device[78160529a5a3f25d] (enp0s3): unmanaged: flags set to [!sleeping,!by-type,!platform-init,!user-explicit,!user-settings=0x0/0x79/managed], set-managed [user-explicit=0x20], reason user-requested)
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5894] device[78160529a5a3f25d] (enp0s3): activation-stage: schedule activate_stage1_device_prepare,v4 (id 277)
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5895] device[78160529a5a3f25d] (enp0s3): activation-stage: invoke activate_stage1_device_prepare,v4 (id 277)
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5895] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'in-state-change'
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5899] active-connection[0x558cc5bb2300]: set state activating (was unknown)
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5901] active-connection[0x558cc5bb2300]: check-master-ready: not signalling (state activating, no master)
+21:11:05,592 DEBUG NetworkManager:<debug> [1598562665.5902] manager: ActivatingConnection now enp0s3
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5902] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'in-state-change'
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5903] device[78160529a5a3f25d] (enp0s3): set-link: ignore link negotiation
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5903] device[78160529a5a3f25d] (enp0s3): activation-stage: synchronously invoke activate_stage2_device_config,v4
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5903] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'in-state-change'
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5905] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'in-state-change'
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5905] rules-manager: sync
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5905] device[78160529a5a3f25d] (enp0s3): bringing up device 2
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5905] platform: (enp0s3) link: setting up
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5905] platform-linux: link: change 2: flags: set 0x1/0x1 ([up] / [up])
+21:11:05,595 DEBUG NetworkManager:<debug> [1598562665.5911] platform-linux: do-request-link: 2 
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5911] platform-linux: do-change-link[2]: success changing link: success
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5912] firewall: [ec1bf35c7276661e,change*:"enp0s3"]: firewall zone change enp0s3:default (not running, simulate success)
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5912] firewall: [ec1bf35c7276661e,change*:"enp0s3"]: complete: fake success
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5912] device[78160529a5a3f25d] (enp0s3): activation-stage: schedule activate_stage3_ip_config_start,v4 (id 280)
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5912] device[78160529a5a3f25d] (enp0s3): activation-stage: invoke activate_stage3_ip_config_start,v4 (id 280)
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5913] active-connection[0x558cc5bb2300]: set state-flags layer2-ready (was none)
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5914] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'in-state-change'
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5915] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'in-state-change'
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5916] device[78160529a5a3f25d] (enp0s3): IPv4 config method is auto
+21:11:05,596 DEBUG NetworkManager:<debug> [1598562665.5916] device[78160529a5a3f25d] (enp0s3): ipv4.dhcp-client-id: no explicit client-id configured
+21:11:05,604 DEBUG NetworkManager:<debug> [1598562665.6036] device[78160529a5a3f25d] (enp0s3): IPv6 config method is auto
+21:11:05,604 DEBUG NetworkManager:<debug> [1598562665.6036] device[78160529a5a3f25d] (enp0s3): will enable userland IPv6LL
+21:11:05,605 DEBUG NetworkManager:<debug> [1598562665.6036] platform-linux: link: change 2: user-ipv6ll: set IPv6 address generation mode to none
+21:11:05,605 DEBUG NetworkManager:<debug> [1598562665.6037] platform-linux: do-request-link: 2 
+21:11:05,605 DEBUG NetworkManager:<debug> [1598562665.6037] platform-linux: do-change-link[2]: success changing link: success
+21:11:05,605 DEBUG NetworkManager:<debug> [1598562665.6038] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/disable_ipv6' to '1' (current value is '0')
+21:11:05,605 DEBUG NetworkManager:<debug> [1598562665.6043] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/disable_ipv6' to '0' (current value is '1')
+21:11:05,608 DEBUG NetworkManager:<debug> [1598562665.6084] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/accept_ra' to '0' (current value is identical)
+21:11:05,608 DEBUG NetworkManager:<debug> [1598562665.6086] platform: (enp0s3) signal: route   6 removed: table 255 ff00::/8 via :: dev 2 metric 256 mss 0 rt-src rt-boot
+21:11:05,608 DEBUG NetworkManager:<debug> [1598562665.6087] device[78160529a5a3f25d] (enp0s3): queued IP6 config change
+21:11:05,608 DEBUG NetworkManager:<debug> [1598562665.6088] platform: (enp0s3) signal: route   6   added: table 255 ff00::/8 via :: dev 2 metric 256 mss 0 rt-src rt-boot
+21:11:05,609 DEBUG NetworkManager:<debug> [1598562665.6090] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/default/use_tempaddr': '0'
+21:11:05,609 DEBUG NetworkManager:<debug> [1598562665.6091] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/enp0s3/router_solicitation_interval': '4'
+21:11:05,609 DEBUG NetworkManager:<debug> [1598562665.6092] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/enp0s3/router_solicitations': '-1'
+21:11:05,609 DEBUG NetworkManager:<debug> [1598562665.6093] platform-linux: sysctl: reading '/proc/sys/net/ipv6/conf/enp0s3/max_addresses': '16'
+21:11:05,610 DEBUG NetworkManager:<debug> [1598562665.6103] device[78160529a5a3f25d] (enp0s3): linklocal6: starting IPv6 with method 'auto', but the device has no link-local addresses configured. Wait.
+21:11:05,610 DEBUG NetworkManager:<debug> [1598562665.6105] /etc/machine-id: 915df70d177a4e9bb67a1d0a3dcb4c1d
+21:11:05,610 DEBUG NetworkManager:<debug> [1598562665.6106] secret-key: persist new secret key to "/var/lib/NetworkManager/secret_key"
+21:11:05,610 DEBUG NetworkManager:<debug> [1598562665.6107] device[78160529a5a3f25d] (enp0s3): linklocal6: generated stable-privacy IPv6LL address fe80::84a:cf56:58fc:343d
+21:11:05,610 DEBUG NetworkManager:<debug> [1598562665.6109] device[78160529a5a3f25d] (enp0s3): ip6-config: update (commit=1, new-config=0x558cc5b987d0)
+21:11:05,611 DEBUG NetworkManager:<debug> [1598562665.6110] platform: (enp0s3) address: adding or updating IPv6 address: fe80::84a:cf56:58fc:343d/64 lft forever pref forever lifetime 551-0[4294967295,4294967295] dev 2 flags noprefixroute src unknown
+21:11:05,611 DEBUG NetworkManager:<debug> [1598562665.6116] platform: (enp0s3) signal: address 6   added: fe80::84a:cf56:58fc:343d/64 lft forever pref forever lifetime 551-0[4294967295,4294967295] dev 2 flags permanent,noprefixroute,tentative src kernel
+21:11:05,611 DEBUG NetworkManager:<debug> [1598562665.6117] platform-linux: do-add-ip6-address[2: fe80::84a:cf56:58fc:343d]: success
+21:11:05,611 DEBUG NetworkManager:<debug> [1598562665.6118] platform: (enp0s3) route: append     IPv6 route: fe80::/64 via :: dev 2 metric 100 mss 0 rt-src ipv6ll
+21:11:05,611 DEBUG NetworkManager:<debug> [1598562665.6119] platform: (enp0s3) signal: route   6   added: fe80::/64 via :: dev 2 metric 100 mss 0 rt-src rt-kernel
+21:11:05,612 DEBUG NetworkManager:<debug> [1598562665.6120] platform-linux: do-add-ip6-route[fe80::/64 via :: dev 2 metric 100 mss 0 rt-src rt-kernel]: success
+21:11:05,614 DEBUG NetworkManager:<debug> [1598562665.6144] device[78160529a5a3f25d] (enp0s3): ip6-config: update IP Config instance (/org/freedesktop/NetworkManager/IP6Config/3)
+21:11:05,614 DEBUG NetworkManager:<debug> [1598562665.6146] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:11:05,614 DEBUG NetworkManager:<debug> [1598562665.6147] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:11:05,614 DEBUG NetworkManager:<debug> [1598562665.6147] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:11:05,614 DEBUG NetworkManager:<debug> [1598562665.6149] platform-linux: sysctl: setting '/proc/sys/net/ipv6/conf/enp0s3/use_tempaddr' to '0' (current value is identical)
+21:11:05,615 DEBUG NetworkManager:<debug> [1598562665.6154] dhcp4 (enp0s3): send DISCOVER to 255.255.255.255
+21:11:05,615 DEBUG NetworkManager:<debug> [1598562665.6157] dhcp4 (enp0s3): received OFFER of 10.0.2.15 from 10.0.2.4
+21:11:05,615 DEBUG NetworkManager:<debug> [1598562665.6158] dhcp4 (enp0s3): send REQUEST of 10.0.2.15 to 255.255.255.255
+21:11:05,616 DEBUG NetworkManager:<debug> [1598562665.6160] dhcp4 (enp0s3): received ACK of 10.0.2.15 from 10.0.2.4
+21:11:05,619 DEBUG NetworkManager:<debug> [1598562665.6183] device[78160529a5a3f25d] (enp0s3): new DHCPv4 client state 1
+21:11:05,622 DEBUG NetworkManager:<debug> [1598562665.6217] device[78160529a5a3f25d] (enp0s3): activation-stage: schedule activate_stage5_ip_config_result_4,v4 (id 286)
+21:11:05,622 DEBUG NetworkManager:<debug> [1598562665.6219] device[78160529a5a3f25d] (enp0s3): ip6-config: update (commit=0, new-config=0x558cc5b987d0)
+21:11:05,624 DEBUG NetworkManager:<debug> [1598562665.6241] device[78160529a5a3f25d] (enp0s3): ip6-config: update IP Config instance (/org/freedesktop/NetworkManager/IP6Config/3)
+21:11:05,624 DEBUG NetworkManager:<debug> [1598562665.6243] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:11:05,624 DEBUG NetworkManager:<debug> [1598562665.6244] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:11:05,624 DEBUG NetworkManager:<debug> [1598562665.6244] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:11:05,624 DEBUG NetworkManager:<debug> [1598562665.6245] device[78160529a5a3f25d] (enp0s3): activation-stage: invoke activate_stage5_ip_config_result_4,v4 (id 286)
+21:11:05,624 DEBUG NetworkManager:<debug> [1598562665.6245] device[78160529a5a3f25d] (enp0s3): ip4-config: update (commit=1, new-config=0x558cc5bb2850)
+21:11:05,624 DEBUG NetworkManager:<debug> [1598562665.6246] platform: (enp0s3) address: adding or updating IPv4 address: 10.0.2.15/24 lft 86400sec pref 86400sec lifetime 551-0[86400,86400] dev 2 flags noprefixroute src unknown
+21:11:05,625 DEBUG NetworkManager:<debug> [1598562665.6251] platform: (enp0s3) signal: address 4   added: 10.0.2.15/24 lft 86400sec pref 86400sec lifetime 551-551[86400,86400] dev 2 flags noprefixroute src kernel
+21:11:05,625 DEBUG NetworkManager:<debug> [1598562665.6251] device[78160529a5a3f25d] (enp0s3): queued IP4 config change
+21:11:05,625 DEBUG NetworkManager:<debug> [1598562665.6251] platform-linux: do-add-ip4-address[2: 10.0.2.15/24]: success
+21:11:05,625 DEBUG NetworkManager:<debug> [1598562665.6252] platform: (enp0s3) route: append     IPv4 route: 10.0.2.0/24 via 0.0.0.0 dev 2 metric 100 mss 0 rt-src rt-kernel scope link pref-src 10.0.2.15
+21:11:05,625 DEBUG NetworkManager:<debug> [1598562665.6252] platform: (enp0s3) signal: route   4   added: 10.0.2.0/24 via 0.0.0.0 dev 2 metric 100 mss 0 rt-src rt-kernel scope link pref-src 10.0.2.15
+21:11:05,625 DEBUG NetworkManager:<debug> [1598562665.6252] platform-linux: do-add-ip4-route[10.0.2.0/24 via 0.0.0.0 dev 2 metric 100 mss 0 rt-src rt-kernel scope link pref-src 10.0.2.15]: success
+21:11:05,625 DEBUG NetworkManager:<debug> [1598562665.6252] platform: (enp0s3) route: append     IPv4 route: 0.0.0.0/0 via 10.0.2.2 dev 2 metric 100 mss 0 rt-src dhcp
+21:11:05,625 DEBUG NetworkManager:<debug> [1598562665.6253] platform: (enp0s3) signal: route   4   added: 0.0.0.0/0 via 10.0.2.2 dev 2 metric 100 mss 0 rt-src rt-dhcp scope global
+21:11:05,626 DEBUG NetworkManager:<debug> [1598562665.6253] platform-linux: do-add-ip4-route[0.0.0.0/0 via 10.0.2.2 dev 2 metric 100 mss 0 rt-src rt-dhcp scope global]: success
+21:11:05,627 DEBUG NetworkManager:<debug> [1598562665.6278] device[78160529a5a3f25d] (enp0s3): ip4-config: set IP Config instance (/org/freedesktop/NetworkManager/IP4Config/3)
+21:11:05,628 DEBUG NetworkManager:<debug> [1598562665.6286] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:11:05,628 DEBUG NetworkManager:<debug> [1598562665.6286] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:11:05,629 DEBUG NetworkManager:<debug> [1598562665.6286] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:11:05,629 DEBUG NetworkManager:<debug> [1598562665.6291] active-connection[0x558cc5bb2300]: set state-flags layer2-ready,ip4-ready (was layer2-ready)
+21:11:05,631 DEBUG NetworkManager:<debug> [1598562665.6309] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'in-state-change'
+21:11:05,632 DEBUG NetworkManager:<debug> [1598562665.6324] dispatcher: (3) (enp0s3) dispatching action 'pre-up' (with callback)
+21:11:05,644 DEBUG NetworkManager:<debug> [1598562665.6440] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'in-state-change'
+21:11:05,644 DEBUG NetworkManager:<debug> [1598562665.6443] device[78160529a5a3f25d] (enp0s3): ip4-config: update (commit=0, new-config=0x558cc5bb2720)
+21:11:05,669 DEBUG nm-dispatcher:req:1 'pre-up' [enp0s3]: environment: CONNECTION_DBUS_PATH=/org/freedesktop/NetworkManager/Settings/1
+21:11:05,669 DEBUG nm-dispatcher:req:1 'pre-up' [enp0s3]: environment: CONNECTION_FILENAME=/etc/sysconfig/network-scripts/ifcfg-enp0s3
+21:11:05,669 DEBUG nm-dispatcher:req:1 'pre-up' [enp0s3]: environment: CONNECTION_UUID=61e71fca-3f33-4a64-aca1-9e7935a73c89
+21:11:05,670 DEBUG nm-dispatcher:req:1 'pre-up' [enp0s3]: environment: CONNECTION_ID=enp0s3
+21:11:05,670 DEBUG nm-dispatcher:req:1 'pre-up' [enp0s3]: environment: DEVICE_IFACE=enp0s3
+21:11:05,670 DEBUG nm-dispatcher:req:1 'pre-up' [enp0s3]: environment: DEVICE_IP_IFACE=enp0s3
+21:11:05,670 DEBUG nm-dispatcher:req:1 'pre-up' [enp0s3]: environment: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+21:11:05,670 DEBUG nm-dispatcher:req:1 'pre-up' [enp0s3]: environment: NM_DISPATCHER_ACTION=pre-up
+21:11:05,673 DEBUG NetworkManager:<debug> [1598562665.6706] dispatcher: (3) succeeded but no scripts invoked
+21:11:05,673 DEBUG NetworkManager:<debug> [1598562665.6706] device[78160529a5a3f25d] (enp0s3): add_pending_action (2): 'queued-state-change-secondaries'
+21:11:05,673 DEBUG NetworkManager:<debug> [1598562665.6707] device[78160529a5a3f25d] (enp0s3): queue-state[secondaries, reason:none, id:293]: queue state change
+21:11:05,673 DEBUG NetworkManager:<debug> [1598562665.6707] device[78160529a5a3f25d] (enp0s3): queue-state[secondaries, reason:none, id:293]: change state
+21:11:05,673 DEBUG NetworkManager:<debug> [1598562665.6707] device[78160529a5a3f25d] (enp0s3): add_pending_action (3): 'in-state-change'
+21:11:05,674 DEBUG NetworkManager:<debug> [1598562665.6710] device[78160529a5a3f25d] (enp0s3): add_pending_action (4): 'queued-state-change-activated'
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6710] device[78160529a5a3f25d] (enp0s3): queue-state[activated, reason:none, id:294]: queue state change
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6710] device[78160529a5a3f25d] (enp0s3): device entered SECONDARIES state
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6710] device[78160529a5a3f25d] (enp0s3): remove_pending_action (3): 'in-state-change'
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6710] device[78160529a5a3f25d] (enp0s3): remove_pending_action (2): 'queued-state-change-secondaries'
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6710] device[78160529a5a3f25d] (enp0s3): queue-state[activated, reason:none, id:294]: change state
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6711] device[78160529a5a3f25d] (enp0s3): add_pending_action (3): 'in-state-change'
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6714] active-connection[0x558cc5bb2300]: set state activated (was activating)
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6716] active-connection[0x558cc5bb2300]: check-master-ready: not signalling (state activated, no master)
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6716] device[78160529a5a3f25d] (enp0s3): remove_pending_action (2): 'activation-1'
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6744] dns-mgr: (device_state_changed): queueing DNS updates (1)
+21:11:05,675 DEBUG NetworkManager:<debug> [1598562665.6744] dns-mgr: (update_routing_and_dns): queueing DNS updates (2)
+21:11:05,679 DEBUG NetworkManager:<debug> [1598562665.6746] manager: PrimaryConnection now enp0s3
+21:11:05,680 DEBUG NetworkManager:<debug> [1598562665.6800] dns-mgr: (update_routing_and_dns): DNS configuration changed
+21:11:05,680 DEBUG NetworkManager:<debug> [1598562665.6801] dns-mgr: (update_routing_and_dns): no DNS changes to commit (1)
+21:11:05,680 DEBUG NetworkManager:<debug> [1598562665.6801] dns-mgr: (device_state_changed): DNS configuration changed
+21:11:05,680 DEBUG NetworkManager:<debug> [1598562665.6801] dns-mgr: (device_state_changed): committing DNS changes (0)
+21:11:05,680 DEBUG NetworkManager:<debug> [1598562665.6801] dns-mgr: update-dns: updating resolv.conf
+21:11:05,683 DEBUG NetworkManager:<debug> [1598562665.6819] policy: restarting reverse-lookup thread for address 10.0.2.15
+21:11:05,683 DEBUG NetworkManager:<debug> [1598562665.6822] device[78160529a5a3f25d] (enp0s3): set metered value 4
+21:11:05,683 DEBUG NetworkManager:<debug> [1598562665.6823] manager: new metered value: 4
+21:11:05,683 DEBUG NetworkManager:<debug> [1598562665.6826] dispatcher: (4) (enp0s3) dispatching action 'up'
+21:11:05,694 DEBUG NetworkManager:<debug> [1598562665.6939] create NMPacrunnerManager singleton (371f4a4f27910cb4)
+21:11:05,694 DEBUG NetworkManager:<debug> [1598562665.6939] device[78160529a5a3f25d] (enp0s3): connectivity state changed from NONE to FULL
+21:11:05,695 DEBUG NetworkManager:<debug> [1598562665.6949] manager: connectivity checking indicates FULL
+21:11:05,697 DEBUG NetworkManager:<debug> [1598562665.6969] dispatcher: (5) dispatching action 'connectivity-change'
+21:11:05,698 DEBUG NetworkManager:<debug> [1598562665.6986] device[78160529a5a3f25d] (enp0s3): ip4-config: update (commit=1, new-config=0x558cc5bb2720)
+21:11:05,698 DEBUG NetworkManager:<debug> [1598562665.6986] platform: (enp0s3) address: adding or updating IPv4 address: 10.0.2.15/24 lft 86400sec pref 86400sec lifetime 551-0[86400,86400] dev 2 flags noprefixroute src unknown
+21:11:05,699 DEBUG NetworkManager:<debug> [1598562665.6992] platform-linux: do-add-ip4-address[2: 10.0.2.15/24]: success
+21:11:05,699 DEBUG NetworkManager:<debug> [1598562665.6993] device[78160529a5a3f25d] (enp0s3): connectivity state changed from NONE to FULL
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: CONNECTION_DBUS_PATH=/org/freedesktop/NetworkManager/Settings/1
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: CONNECTION_FILENAME=/etc/sysconfig/network-scripts/ifcfg-enp0s3
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: CONNECTION_UUID=61e71fca-3f33-4a64-aca1-9e7935a73c89
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: CONNECTION_ID=enp0s3
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DEVICE_IFACE=enp0s3
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DEVICE_IP_IFACE=enp0s3
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP4_ADDRESS_0=10.0.2.15/24 10.0.2.2
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP4_NUM_ADDRESSES=1
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP4_GATEWAY=10.0.2.2
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP4_NAMESERVERS=192.168.88.1 10.180.90.249 10.180.90.142
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP4_ROUTE_0=10.0.2.0/24 0.0.0.0 100
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP4_NUM_ROUTES=1
+21:11:05,701 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP6_ADDRESS_0=fe80::84a:cf56:58fc:343d/64 0.0.0.0
+21:11:05,702 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP6_NUM_ADDRESSES=1
+21:11:05,702 DEBUG NetworkManager:<debug> [1598562665.7021] device[78160529a5a3f25d] (enp0s3): ip4-config: update (commit=1, new-config=0x558cc5bb25f0)
+21:11:05,702 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP6_GATEWAY=0.0.0.0
+21:11:05,702 DEBUG NetworkManager:<debug> [1598562665.7022] platform: (enp0s3) address: adding or updating IPv4 address: 10.0.2.15/24 lft 86400sec pref 86400sec lifetime 551-0[86400,86400] dev 2 flags noprefixroute src unknown
+21:11:05,702 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP6_ROUTE_0=ff00::/8 :: 256
+21:11:05,702 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP6_ROUTE_1=fe80::/64 :: 100
+21:11:05,702 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: IP6_NUM_ROUTES=2
+21:11:05,702 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_DHCP_LEASE_TIME=86400
+21:11:05,702 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_DOMAIN_NAME_SERVERS=192.168.88.1 10.180.90.249 10.180.90.142
+21:11:05,702 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_EXPIRY=1598649065
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_IP_ADDRESS=10.0.2.15
+21:11:05,704 DEBUG NetworkManager:<debug> [1598562665.7028] platform-linux: do-add-ip4-address[2: 10.0.2.15/24]: success
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_NEXT_SERVER=10.0.2.4
+21:11:05,704 DEBUG NetworkManager:<debug> [1598562665.7028] device[78160529a5a3f25d] (enp0s3): remove_pending_action (1): 'in-state-change'
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_BROADCAST_ADDRESS=1
+21:11:05,704 DEBUG NetworkManager:<debug> [1598562665.7028] device[78160529a5a3f25d] (enp0s3): remove_pending_action (0): 'queued-state-change-activated'
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_DOMAIN_NAME=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_DOMAIN_NAME_SERVERS=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_DOMAIN_SEARCH=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_HOST_NAME=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_INTERFACE_MTU=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_MS_CLASSLESS_STATIC_ROUTES=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_NIS_DOMAIN=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_NIS_SERVERS=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_NTP_SERVERS=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_RFC3442_CLASSLESS_STATIC_ROUTES=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_ROOT_PATH=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_ROUTERS=1
+21:11:05,704 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_STATIC_ROUTES=1
+21:11:05,714 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_SUBNET_MASK=1
+21:11:05,714 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_TIME_OFFSET=1
+21:11:05,714 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_REQUESTED_WPAD=1
+21:11:05,714 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_ROUTERS=10.0.2.2
+21:11:05,714 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: DHCP4_SUBNET_MASK=255.255.255.0
+21:11:05,714 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+21:11:05,714 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: environment: NM_DISPATCHER_ACTION=up
+21:11:05,714 DEBUG nm-dispatcher:req:2 'up' [enp0s3], "/etc/NetworkManager/dispatcher.d/04-iscsi": run script
+21:11:05,718 DEBUG nm-dispatcher:req:3 'connectivity-change': environment: CONNECTIVITY_STATE=FULL
+21:11:05,718 DEBUG NetworkManager:<debug> [1598562665.7159] pacrunner: pacrunner not on D-Bus
+21:11:05,721 DEBUG nm-dispatcher:req:3 'connectivity-change': environment: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+21:11:05,721 DEBUG NetworkManager:<debug> [1598562665.7159] pacrunner: try D-Bus activating pacrunner...
+21:11:05,721 DEBUG nm-dispatcher:req:3 'connectivity-change': environment: NM_DISPATCHER_ACTION=connectivity-change
+21:11:05,742 DEBUG nm-dispatcher:req:2 'up' [enp0s3], "/etc/NetworkManager/dispatcher.d/04-iscsi": complete
+21:11:05,742 DEBUG nm-dispatcher:req:2 'up' [enp0s3], "/etc/NetworkManager/dispatcher.d/11-dhclient": run script
+21:11:05,791 DEBUG nm-dispatcher:req:2 'up' [enp0s3], "/etc/NetworkManager/dispatcher.d/11-dhclient": complete
+21:11:05,791 DEBUG nm-dispatcher:req:2 'up' [enp0s3], "/etc/NetworkManager/dispatcher.d/20-chrony": run script
+21:11:05,830 DEBUG nm-dispatcher:req:2 'up' [enp0s3], "/etc/NetworkManager/dispatcher.d/20-chrony": complete
+21:11:05,830 DEBUG nm-dispatcher:req:2 'up' [enp0s3]: completed (3 scripts)
+21:11:05,830 DEBUG nm-dispatcher:req:3 'connectivity-change', "/etc/NetworkManager/dispatcher.d/04-iscsi": run script
+21:11:05,830 DEBUG NetworkManager:<debug> [1598562665.8305] dispatcher: (4) /etc/NetworkManager/dispatcher.d/04-iscsi succeeded
+21:11:05,830 DEBUG NetworkManager:<debug> [1598562665.8306] dispatcher: (4) /etc/NetworkManager/dispatcher.d/11-dhclient succeeded
+21:11:05,830 DEBUG NetworkManager:<debug> [1598562665.8306] dispatcher: (4) /etc/NetworkManager/dispatcher.d/20-chrony succeeded
+21:11:05,841 DEBUG nm-dispatcher:req:3 'connectivity-change', "/etc/NetworkManager/dispatcher.d/04-iscsi": complete
+21:11:05,841 DEBUG nm-dispatcher:req:3 'connectivity-change', "/etc/NetworkManager/dispatcher.d/11-dhclient": run script
+21:11:05,869 DEBUG nm-dispatcher:req:3 'connectivity-change', "/etc/NetworkManager/dispatcher.d/11-dhclient": complete
+21:11:05,869 DEBUG nm-dispatcher:req:3 'connectivity-change', "/etc/NetworkManager/dispatcher.d/20-chrony": run script
+21:11:05,883 DEBUG nm-dispatcher:req:3 'connectivity-change', "/etc/NetworkManager/dispatcher.d/20-chrony": complete
+21:11:05,883 DEBUG nm-dispatcher:req:3 'connectivity-change': completed (3 scripts)
+21:11:05,883 DEBUG NetworkManager:<debug> [1598562665.8834] dispatcher: (5) /etc/NetworkManager/dispatcher.d/04-iscsi succeeded
+21:11:05,883 DEBUG NetworkManager:<debug> [1598562665.8834] dispatcher: (5) /etc/NetworkManager/dispatcher.d/11-dhclient succeeded
+21:11:05,883 DEBUG NetworkManager:<debug> [1598562665.8834] dispatcher: (5) /etc/NetworkManager/dispatcher.d/20-chrony succeeded
+21:11:07,624 DEBUG NetworkManager:<debug> [1598562667.6233] platform: (enp0s3) signal: address 6 changed: fe80::84a:cf56:58fc:343d/64 lft forever pref forever lifetime 553-0[4294967295,4294967295] dev 2 flags permanent,noprefixroute src kernel
+21:11:07,624 DEBUG NetworkManager:<debug> [1598562667.6234] device[78160529a5a3f25d] (enp0s3): queued IP6 config change
+21:11:07,624 DEBUG NetworkManager:<debug> [1598562667.6235] device[78160529a5a3f25d] (enp0s3): ip6-config: update (commit=0, new-config=0x558cc5b989f0)
+21:11:07,624 DEBUG NetworkManager:<debug> [1598562667.6239] device[78160529a5a3f25d] (enp0s3): linklocal6: waiting for link-local addresses successful, continue with method auto
+21:11:07,624 DEBUG NetworkManager:<debug> [1598562667.6240] device[78160529a5a3f25d] (enp0s3): addrconf6: using the device EUI-64 identifier
+21:11:07,625 DEBUG NetworkManager:<debug> [1598562667.6240] device[78160529a5a3f25d] (enp0s3): ip6-config: update (commit=1, new-config=0x558cc5b98280)
+21:11:07,625 DEBUG NetworkManager:<debug> [1598562667.6240] platform: (enp0s3) address: adding or updating IPv6 address: fe80::84a:cf56:58fc:343d/64 lft forever pref forever lifetime 553-0[4294967295,4294967295] dev 2 flags permanent,noprefixroute src unknown
+21:11:07,625 DEBUG NetworkManager:<debug> [1598562667.6241] platform-linux: do-add-ip6-address[2: fe80::84a:cf56:58fc:343d]: success
+21:11:07,625 DEBUG NetworkManager:<debug> [1598562667.6243] device[78160529a5a3f25d] (enp0s3): ip6-config: update IP Config instance (/org/freedesktop/NetworkManager/IP6Config/3)
+21:11:07,625 DEBUG NetworkManager:<debug> [1598562667.6243] dns-mgr: (device_ip_config_changed): queueing DNS updates (1)
+21:11:07,627 DEBUG NetworkManager:<debug> [1598562667.6268] dns-mgr: (device_ip_config_changed): DNS configuration did not change
+21:11:07,627 DEBUG NetworkManager:<debug> [1598562667.6269] dns-mgr: (device_ip_config_changed): no DNS changes to commit (0)
+21:11:07,627 DEBUG NetworkManager:<debug> [1598562667.6269] ndisc[0x558cc5bb2480,"enp0s3"]: starting neighbor discovery for ifindex 2 (solicit)
+21:11:07,627 DEBUG NetworkManager:<debug> [1598562667.6269] ndisc-lndp[0x558cc5bb2480,"enp0s3"]: processing libndp events
+21:11:07,627 DEBUG NetworkManager:<debug> [1598562667.6269] ndisc[0x558cc5bb2480,"enp0s3"]: scheduling RA timeout in 30 seconds
+21:11:07,627 DEBUG NetworkManager:<debug> [1598562667.6269] ndisc[0x558cc5bb2480,"enp0s3"]: scheduling explicit router solicitation request in 0 seconds.
+21:11:08,000 DEBUG NetworkManager:<debug> [1598562668.0007] ndisc[0x558cc5bb2480,"enp0s3"]: router solicitation sent
+21:11:08,001 DEBUG NetworkManager:<debug> [1598562668.0008] ndisc[0x558cc5bb2480,"enp0s3"]: scheduling router solicitation retry in 4 seconds.
+21:11:14,325 DEBUG NetworkManager:<debug> [1598562674.3255] ndisc[0x558cc5bb2480,"enp0s3"]: router solicitation sent
+21:11:14,325 DEBUG NetworkManager:<debug> [1598562674.3256] ndisc[0x558cc5bb2480,"enp0s3"]: scheduling router solicitation retry in 4 seconds.
+21:11:18,327 DEBUG NetworkManager:<debug> [1598562678.3273] ndisc[0x558cc5bb2480,"enp0s3"]: router solicitation sent
+21:11:18,327 DEBUG NetworkManager:<debug> [1598562678.3273] ndisc[0x558cc5bb2480,"enp0s3"]: did not receive a router advertisement after 3 solicitations.
+21:11:40,325 DEBUG NetworkManager:<debug> [1598562700.3254] device[78160529a5a3f25d] (enp0s3): timed out waiting for IPv6 router advertisement
+21:11:40,325 DEBUG NetworkManager:<debug> [1598562700.3254] device[78160529a5a3f25d] (enp0s3): activation-stage: schedule activate_stage4_ip_config_timeout_6,v6 (id 387)
+21:11:40,325 DEBUG NetworkManager:<debug> [1598562700.3254] device[78160529a5a3f25d] (enp0s3): activation-stage: invoke activate_stage4_ip_config_timeout_6,v6 (id 387)
+21:13:55,116 DEBUG NetworkManager:<debug> [1598562835.1154] platform-linux: UDEV event: action 'change' subsys 'net' device 'enp0s3' (2); seqnum=2151
+21:13:55,167 DEBUG NetworkManager:<debug> [1598562835.1672] platform-linux: UDEV event: action 'change' subsys 'net' device 'lo' (1); seqnum=2152

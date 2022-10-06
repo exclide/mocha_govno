@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ps -eo pid,lstart,cmd | tail -n 1 | awk '{print $1}'
+
+#e - all processes
+#o - user format

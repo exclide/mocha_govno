@@ -1,0 +1,20 @@
+#!/bin/bash
+
+rm output4
+touch output4
+chmod 777 output4
+
+for dir in $(ls /proc/ | grep '[0-9]\+')
+do
+if test -f "/proc/$dir/status"; then
+ppid="$(grep 'PPid:' /proc/$dir/status | awk '{print $2}')"
+sum_runtime="$(grep 'sum_exec_runtime' /proc/$dir/sched | awk '{print $3}')"
+nr_switches="$(grep 'nr_switches' /proc/$dir/sched | awk '{print $3}')"
+art=$(echo "scale=4; $sum_runtime / $nr_switches" | bc)
+echo "pid=$dir ppid=$ppid art=$art" >> output4
+fi
+done
+
+sort -Vk 2 output4 -o output4
+
+#V - sort string with numbers correctly

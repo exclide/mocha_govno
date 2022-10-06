@@ -1,0 +1,10 @@
+#!/bin/bash
+
+touch output1
+chmod 777 output1
+
+ps -u ex | tail -n +2 | wc -l > output1
+ps -u ex | awk 'NR>1 {print $1,$4}' >> output1
+
+#tail -n +2 - cut the top line
+#NR>1 skip the top line

@@ -1,0 +1,28 @@
+#!/bin/bash
+
+rm output4tmp
+touch output4tmp
+chmod 777 output4tmp
+
+summ=0
+count=0
+prevppid=-1
+
+cat output4 | while read line; do
+eval $line;
+newppid="$ppid"
+art="$art"
+if [[ "$newppid" != "$prevppid" ]]; then
+if [[ "$prevppid" != "-1" ]]; then
+avgres=$(echo "scale=4; $summ/$count" | bc)
+echo "avg_running_children_of_parentID=$prevppid is $avgres" >> output4tmp
+fi
+count=1
+prevppid=$newppid
+summ=$art
+else
+summ=$(echo "$summ+$art" | bc)
+count=$(echo "$count+1" | bc)
+fi
+echo "$line" >> output4tmp
+done
