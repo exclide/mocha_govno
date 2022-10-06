@@ -1,0 +1,21 @@
+#!/bin/bash
+
+rm output6
+touch output6
+chmod 777 output6
+
+max=-1
+
+for dir in $(ls /proc/ | grep "[0-9]\+") 
+do
+if test -f "/proc/$dir/status"; then
+vmsize=$(grep "VmSize:" /proc/$dir/status | awk '{print $2}')
+vmres=$(grep "VmRSS:" /proc/$dir/status | awk '{print $2}')
+name=$(grep "Name:" /proc/$dir/status | awk '{print $2}')
+if [[ $vmsize > 0 ]]; then
+echo "pid=$dir name=$name vmsize=$vmsize vmres=$vmres" >> output6
+fi
+fi
+done
+
+sort -r -Vk 3 output6 -o output6

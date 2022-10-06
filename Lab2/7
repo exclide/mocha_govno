@@ -1,0 +1,31 @@
+#!/bin/bash
+
+rm output7
+touch output7
+chmod 777 output7
+
+declare -A readbefore
+
+for dir in $(ls /proc/ | grep "[0-9]\+") 
+do
+if test -f "/proc/$dir/io"; then
+readbefore[$dir]=$(sudo grep "read_bytes:" /proc/$dir/io | awk '{print $2}')
+#echo ${readbefore[$dir]}
+fi
+done
+
+sleep 15
+
+for dir in $(ls /proc/ | grep "[0-9]\+") 
+do
+if test -f "/proc/$dir/io"; then
+if [[ -v readbefore[$dir] ]]; then
+readafter=$(sudo grep "read_bytes:" /proc/$dir/io | awk '{print $2}')
+diff=$(echo "$readafter-${readbefore[$dir]}" | bc)
+cmd=$(cat /proc/$dir/cmdline)
+echo "pid=$dir diff=$diff cmd=$cmd" >> output7
+fi
+fi
+done
+
+sort -r -Vk 2 output7 | head -3 > tmp && mv tmp output7
